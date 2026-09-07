@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  const API_BASE = "https://rowadalthil.com/";
+  const API_BASE = "https://rowadalthil.com";
   const PER_PAGE = 9;
 
   const grid = document.getElementById("articlesListGrid");
