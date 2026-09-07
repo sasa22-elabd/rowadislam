@@ -20,6 +20,7 @@ const heroSlideRoutes = require("./routes/heroSlideRoutes");
 const settingsRoutes = require("./routes/settingRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const pushRoutes = require("./routes/pushRoutes");
+const applySeoRoute = require('./seo-apply-route');
 
 const serviceCategoriesRoutes = require("./routes/serviceCategories");
 const workSectionRoutes = require("./routes/workSectionRoutes");
@@ -76,7 +77,7 @@ app.use(
     extended: true
   })
 );
-
+app.use('/api', applySeoRoute);
 // =========================
 // Uploaded Images
 // =========================
