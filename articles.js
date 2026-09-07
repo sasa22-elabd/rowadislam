@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  const API_BASE = "https://rowadalthil.com/";
+  const API_BASE = "https://rowadalthil.com";
   const VISIBLE_COUNT = 3;
 
   const slider = document.getElementById("shadowArticlesSlider");
